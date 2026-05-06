@@ -2,25 +2,11 @@
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   $ whoami                                                       ║
-║   > Prakash Kumar Sarangi                                        ║
-║                                                                  ║
-║   $ cat education.txt                                            ║
-║   > M.Tech CSE @ NIT Calicut (2024-2026)                         ║
-║   > B.Tech IT  @ OUTR Bhubaneswar (2019-2023)                    ║
-║                                                                  ║
-║   $ cat interests.txt                                            ║
-║   > Distributed Systems · AI/ML · Systems Programming            ║
-║   > Full-Stack Development · Low-Level Engineering               ║
-║                                                                  ║
-║   $ echo $STATUS                                                 ║
-║   > Building things that scale, break, and teach.                ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+<picture>
+  <img alt="Terminal" src="terminal.svg" width="100%" />
+</picture>
+
+<br><br>
 
 <a href="https://www.linkedin.com/in/prakash1209/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
