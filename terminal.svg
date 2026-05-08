@@ -53,7 +53,7 @@
   <text x="25" y="130" class="cmd line l3">$ cat education.txt</text>
 
   <!-- Line 4: M.Tech -->
-  <text x="25" y="155" class="out line l4">  M.Tech CSE @ NIT Calicut (2024–2026)</text>
+  <text x="25" y="155" class="out line l4">  M.Tech CSE @ NIT Calicut (2025–2027)</text>
 
   <!-- Line 5: B.Tech -->
   <text x="25" y="178" class="out line l5">  B.Tech CSE @ TMSL Kolkata (2019–2023)</text>

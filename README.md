@@ -3,7 +3,7 @@
 <div align="center">
 
 <picture>
-  <img alt="Terminal" src="terminal.svg?v=2" width="100%" />
+  <img alt="Terminal" src="terminal.svg?v=3" width="100%" />
 </picture>
 
 <br><br>
