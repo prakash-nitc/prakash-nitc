@@ -3,7 +3,7 @@
 <div align="center">
 
 <picture>
-  <img alt="Terminal" src="terminal.svg" width="100%" />
+  <img alt="Terminal" src="terminal.svg?v=2" width="100%" />
 </picture>
 
 <br><br>
@@ -181,9 +181,9 @@ Enterprise-grade REST API powering multi-level approval workflows with role-base
 ## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ez4/giphy.gif" width="25">&nbsp; GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=prakash-nitc&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4facfe&icon_color=a855f7&text_color=e8e8f0&ring_color=4facfe" />
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=prakash-nitc&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4facfe&icon_color=a855f7&text_color=e8e8f0&ring_color=4facfe" />
   &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prakash-nitc&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4facfe&text_color=e8e8f0&langs_count=8" />
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=prakash-nitc&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4facfe&text_color=e8e8f0&langs_count=8" />
 </div>
 
 <br>
