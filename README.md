@@ -1,6 +1,13 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:4facfe&height=220&section=header&text=Prakash%20Kumar%20Sarangi&fontColor=e8e8f0&fontSize=42&fontAlignY=35&desc=Software%20Engineer%20%7C%20Systems%20%7C%20AI/ML%20%7C%20Full-Stack&descSize=16&descColor=9ca3af&descAlignY=55&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:4facfe&height=220&section=header&text=Prakash%20Kumar%20Sarangi&fontColor=e8e8f0&fontSize=42&fontAlignY=35&animation=fadeIn"/>
 
 <div align="center">
+
+<!-- Animated Typing SVG -->
+<a href="https://github.com/prakash-nitc">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4FACFE&center=true&vCenter=true&multiline=true&random=false&width=600&height=70&lines=Software+Engineer+%7C+Systems+%7C+AI%2FML+%7C+Full-Stack;Building+Scalable+Distributed+Systems+%26+Intelligent+ML+Pipelines" alt="Typing SVG" />
+</a>
+
+<br>
 
 <picture>
   <img alt="Terminal" src="terminal.svg?v=3" width="100%" />
@@ -42,52 +49,21 @@ I'm a **Software Engineer** with **2+ years of industry experience** and a stron
 
 ## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25">&nbsp; Tech Stack
 
-<table>
-<tr>
-<td valign="top" width="33%">
+<div align="center">
 
-### <img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="18"> Languages
-<p>
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/C/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML/CSS-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-</p>
+<img src="https://skillicons.dev/icons?i=java,python,c,cpp,typescript,javascript&theme=dark" alt="Languages" /><br>
+<img src="https://skillicons.dev/icons?i=spring,react,nextjs,flask,nodejs,htmx&theme=dark" alt="Frameworks" /><br>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,git,linux,numpy&theme=dark" alt="Infrastructure" />
 
-</td>
-<td valign="top" width="33%">
+</div>
 
-### <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="18"> Frameworks & Tools
-<p>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTMX-3366CC?style=flat-square&logo=htmx&logoColor=white"/>
-</p>
+---
 
-</td>
-<td valign="top" width="33%">
+## 🏆 &nbsp;GitHub Trophies
 
-### <img src="https://media.giphy.com/media/KzJkzjggfGN5FyoLkR/giphy.gif" width="18"> Infrastructure
-<p>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
-<img src="https://img.shields.io/badge/POSIX-000000?style=flat-square&logo=gnu&logoColor=white"/>
-</p>
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=prakash-nitc&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
+</div>
 
 ---
 
@@ -196,6 +172,18 @@ Enterprise-grade REST API powering multi-level approval workflows with role-base
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=prakash-nitc&bg_color=0d1117&color=4facfe&line=a855f7&point=e8e8f0&area=true&area_color=4facfe&hide_border=true" />
+</div>
+
+---
+
+## 🐍 &nbsp;Watch the Snake Eat My Contributions
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prakash-nitc/prakash-nitc/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prakash-nitc/prakash-nitc/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/prakash-nitc/prakash-nitc/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
 </div>
 
 ---
