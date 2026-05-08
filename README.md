@@ -4,7 +4,7 @@
 
 <!-- Animated Typing SVG -->
 <a href="https://github.com/prakash-nitc">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=4FACFE&center=true&vCenter=true&multiline=true&random=false&width=600&height=70&lines=Software+Engineer+%7C+Systems+%7C+AI%2FML+%7C+Full-Stack;Building+Scalable+Distributed+Systems+%26+Intelligent+ML+Pipelines" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=4FACFE&center=true&vCenter=true&random=false&width=650&height=35&lines=Software+Engineer+%7C+Systems+%7C+AI%2FML+%7C+Full-Stack;Building+Scalable+Distributed+Systems;From-Scratch+ML+%7C+Open+Source+Enthusiast" alt="Typing SVG" />
 </a>
 
 <br>
@@ -55,14 +55,6 @@ I'm a **Software Engineer** with **2+ years of industry experience** and a stron
 <img src="https://skillicons.dev/icons?i=spring,react,nextjs,flask,nodejs,htmx&theme=dark" alt="Frameworks" /><br>
 <img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,git,linux,numpy&theme=dark" alt="Infrastructure" />
 
-</div>
-
----
-
-## 🏆 &nbsp;GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=prakash-nitc&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
 </div>
 
 ---
