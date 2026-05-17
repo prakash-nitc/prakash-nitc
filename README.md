@@ -1,10 +1,9 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:4facfe&height=220&section=header&text=Prakash%20Kumar%20Sarangi&fontColor=e8e8f0&fontSize=42&fontAlignY=35&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,25:1a1a2e,75:0f3460,100:4facfe&height=260&section=header&text=Prakash%20Kumar%20Sarangi&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Software%20Engineer%20%7C%20M.Tech%20CS%20%40%20NIT%20Calicut&descAlignY=60&descSize=20&descFontColor=90b4ce&animation=fadeIn"/>
 
 <div align="center">
 
-<!-- Animated Typing SVG -->
 <a href="https://github.com/prakash-nitc">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=4FACFE&center=true&vCenter=true&random=false&width=650&height=35&lines=Software+Engineer+%7C+Systems+%7C+AI%2FML+%7C+Full-Stack;Building+Scalable+Distributed+Systems;From-Scratch+ML+%7C+Open+Source+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=4FACFE&center=true&vCenter=true&random=false&width=720&height=40&lines=Backend+Engineer+%7C+Java+%26+Spring+Boot;Systems+Programmer+%7C+C%2B%2B+%26+POSIX+APIs;Full-Stack+Builder+%7C+React+%26+Node.js;AI%2FML+Researcher+%7C+Vision-Language+Models;2%2B+Years+@+TCS+%7C+Now+@+NIT+Calicut" alt="Typing SVG" />
 </a>
 
 <br>
@@ -18,11 +17,17 @@
 <a href="https://www.linkedin.com/in/prakash1209/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>&nbsp;
-<a href="mailto:prakash_m251250cs@nitc.ac.in">
+<a href="https://prakash-nitc.github.io/Portfolio_website/">
+  <img src="https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>&nbsp;
+<a href="mailto:prakashsarangi007@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>&nbsp;
 <a href="https://github.com/prakash-nitc">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>&nbsp;
+<a href="https://leetcode.com/u/PrakashOO7">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
 </a>&nbsp;
 <img src="https://komarev.com/ghpvc/?username=prakash-nitc&style=for-the-badge&color=4facfe&label=PROFILE+VIEWS" />
 
@@ -32,18 +37,41 @@
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">&nbsp; About Me
 
-<img align="right" alt="Coding" width="320" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+<img align="right" alt="Coding" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-I'm a **Software Engineer** with **2+ years of industry experience** and a strong foundation in **systems programming, distributed computing, and AI/ML research**. I specialize in designing and building **scalable, production-grade software** — from bare-metal C socket programming to enterprise-grade microservices and intelligent ML pipelines.
+I'm a **Software Engineer** with **2 years of production experience** at **Tata Consultancy Services**, currently pursuing an **M.Tech in Computer Science** at **NIT Calicut**.
 
-- 🎓 **M.Tech** in Computer Science at **NIT Calicut** — researching multimodal anomaly detection with Vision-Language Models
-- 🎓 **B.Tech** in Computer Science from **TMSL, Kolkata**
-- 💼 **Ex-TCS** — 2 years of professional experience building enterprise backend systems with **Java & Spring Boot**
-- 🏗️ Passionate about working across **every layer of the stack** — TCP sockets in C, RESTful microservices, React/Next.js frontends, and end-to-end ML pipelines
-- 🧠 I implement ML algorithms **from first principles** — backpropagation, gradient descent, architecture search — to deeply understand the mathematics behind the abstractions
-- 🔬 Currently focused on **AI-powered developer tools**, **distributed systems**, and **Vision-Language research**
+I build high-performance backend systems for a living, dig into POSIX system calls for fun, and research Vision-Language Models for my thesis. I enjoy working at every layer — Java microservices, TCP sockets in C++, React frontends, and from-scratch neural networks.
+
+- 🎓 **M.Tech CS** @ NIT Calicut *(Expected 2027)* &nbsp;·&nbsp; **B.Tech IT** @ Techno Main Salt Lake, Kolkata
+- 💼 **Ex-TCS** — 2 years of enterprise Java/Spring Boot backend development
+- ⚙️ Systems programmer — raw TCP sockets, `fork/exec`, `dup2`, multithreading in C++
+- 🔬 Researcher — Multimodal Anomaly Detection with Vision-Language Models
+- 🤖 AI practitioner — built a neural network from scratch in NumPy, multi-agent cognitive simulations
+- 📍 Calicut, Kerala &nbsp;·&nbsp; Open to remote & on-site opportunities
 
 <br clear="right"/>
+
+---
+
+## 🔬 Currently Working On
+
+<div align="center">
+<table>
+<tr><td>
+
+&nbsp;&nbsp;**M.Tech Research &nbsp;·&nbsp; NIT Calicut**
+
+&nbsp;&nbsp;*Multimodal Anomaly Detection using Vision-Language Models*
+
+&nbsp;&nbsp;Exploring **zero-shot** and **few-shot** anomaly detection capabilities of CLIP-based VLMs
+&nbsp;&nbsp;on the MVTec AD benchmark — combining visual and language grounding for defect localization.
+
+&nbsp;&nbsp;`Python` &nbsp; `PyTorch` &nbsp; `CLIP` &nbsp; `Transformers` &nbsp; `Computer Vision`
+
+</td></tr>
+</table>
+</div>
 
 ---
 
@@ -51,9 +79,17 @@ I'm a **Software Engineer** with **2+ years of industry experience** and a stron
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,python,c,cpp,typescript,javascript&theme=dark" alt="Languages" /><br>
-<img src="https://skillicons.dev/icons?i=spring,react,nextjs,flask,nodejs,htmx&theme=dark" alt="Frameworks" /><br>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,git,linux,numpy&theme=dark" alt="Infrastructure" />
+**Languages**
+<br>
+<img src="https://skillicons.dev/icons?i=java,python,c,cpp,typescript,javascript&theme=dark" /><br><br>
+
+**Backend &nbsp;·&nbsp; Frontend**
+<br>
+<img src="https://skillicons.dev/icons?i=spring,nodejs,express,flask,react,nextjs&theme=dark" /><br><br>
+
+**Databases &nbsp;·&nbsp; Infra &nbsp;·&nbsp; Tools**
+<br>
+<img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,docker,git,linux&theme=dark" />
 
 </div>
 
@@ -62,72 +98,45 @@ I'm a **Software Engineer** with **2+ years of industry experience** and a stron
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25">&nbsp; Featured Projects
 
 <table>
+<thead>
 <tr>
-<td width="50%">
-
-### 🤖 [InterviewPilot](https://github.com/prakash-nitc/InterviewPilot)
-**AI-Powered Mock Interview Platform**
-
-An intelligent interview preparation system that leverages generative AI to conduct adaptive technical interviews, evaluate candidate responses in real-time, and deliver comprehensive scoring with actionable feedback.
-
-`Java` `Spring Boot` `HTMX` `Gemini API` `Thymeleaf`
-
-</td>
-<td width="50%">
-
-### ⚡ [Distributed Task Scheduler](https://github.com/prakash-nitc/Distributed-Task-Scheduler)
-**Master-Worker Architecture in C**
-
-A production-grade distributed computing framework built entirely with POSIX system calls — TCP sockets, `fork/exec`, `dup2`, `pipe`, and `select()` — featuring dynamic load balancing with zero external dependencies.
-
-`C` `TCP Sockets` `POSIX` `IPC` `fork/exec`
-
-</td>
+<th align="left">Project</th>
+<th align="left">What it is</th>
+<th align="left">Stack</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><b>🤖&nbsp;<a href="https://github.com/prakash-nitc/InterviewPilot">InterviewPilot</a></b></td>
+<td>AI-powered mock interview platform — WebSocket-driven real-time sessions, Groq API for adaptive evaluation, modular Spring Boot backend</td>
+<td><code>Java</code> <code>Spring Boot</code> <code>HTMX</code> <code>Groq API</code> <code>WebSocket</code></td>
 </tr>
 <tr>
-<td width="50%">
-
-### 🧠 [Multi-Agent AI Simulation](https://github.com/prakash-nitc/Multi-Agent-Generative-AI-Simulation)
-**Stanford Generative Agents Architecture**
-
-A cognitive simulation framework featuring 8 autonomous AI agents with FAISS-backed memory streams, reflective reasoning, strategic planning, and immersive 3D visualization — inspired by Stanford's seminal research on generative agents.
-
-`Python` `LangChain` `FAISS` `Three.js` `Flask`
-
-</td>
-<td width="50%">
-
-### 🔤 [Neural Net Letter Classifier](https://github.com/prakash-nitc/neural-net-letter-classifier)
-**From-Scratch Neural Network in NumPy**
-
-A complete feedforward neural network implemented from first principles — backpropagation, Xavier initialization, hyperparameter search — with an interactive Flask web application. Zero ML frameworks used.
-
-`Python` `NumPy` `Flask` `Matplotlib`
-
-</td>
+<td><b>⚡&nbsp;<a href="https://github.com/prakash-nitc/Distributed-Task-Scheduler">Distributed Task Scheduler</a></b></td>
+<td>Master-Worker distributed system in C++ — raw TCP sockets, <code>fork/exec</code>, <code>dup2</code>, <code>select()</code>, dynamic load balancing. Zero external dependencies</td>
+<td><code>C++</code> <code>TCP Sockets</code> <code>POSIX</code> <code>IPC</code></td>
 </tr>
 <tr>
-<td width="50%">
-
-### 🚗 [RideConnect](https://github.com/prakash-nitc/rideconnect-app)
-**Campus Carpooling Platform**
-
-A full-stack ride-sharing application with secure authentication, intelligent ride matching, automated fare splitting, and a responsive mobile-first UI — designed and deployed for university campus use.
-
-`TypeScript` `Next.js` `MongoDB` `NextAuth`
-
-</td>
-<td width="50%">
-
-### 💼 [WAMS Backend](https://github.com/prakash-nitc/wams-backend)
-**Workflow & Approval Management System**
-
-Enterprise-grade REST API powering multi-level approval workflows with role-based access control, audit trails, and hierarchical authorization for organizational process management.
-
-`Java` `Spring Boot` `PostgreSQL` `JWT`
-
-</td>
+<td><b>🧠&nbsp;<a href="https://github.com/prakash-nitc/Multi-Agent-Generative-AI-Simulation">Multi-Agent AI Simulation</a></b></td>
+<td>8 autonomous AI agents with FAISS-backed memory streams, reflective reasoning, and strategic planning — inspired by Stanford's Generative Agents paper</td>
+<td><code>Python</code> <code>LangChain</code> <code>FAISS</code> <code>Three.js</code> <code>Flask</code></td>
 </tr>
+<tr>
+<td><b>🔤&nbsp;<a href="https://github.com/prakash-nitc/neural-net-letter-classifier">Neural Net Classifier</a></b></td>
+<td>Complete feedforward neural network from first principles — backpropagation, Xavier initialization, hyperparameter search. Zero ML frameworks used</td>
+<td><code>Python</code> <code>NumPy</code> <code>Flask</code> <code>Matplotlib</code></td>
+</tr>
+<tr>
+<td><b>🚗&nbsp;<a href="https://github.com/prakash-nitc/rideconnect-app">RideConnect</a></b></td>
+<td>Campus carpool platform built for NITC students — auth, ride matching, fare splitting, responsive mobile-first UI. Deployed on Vercel & Render</td>
+<td><code>React</code> <code>TypeScript</code> <code>Node.js</code> <code>MongoDB</code> <code>Tailwind</code></td>
+</tr>
+<tr>
+<td><b>💼&nbsp;<a href="https://github.com/prakash-nitc/wams-backend">WAMS Backend</a></b></td>
+<td>Enterprise workflow & approval REST API — multi-level RBAC, audit trails, and hierarchical authorization for organizational process management</td>
+<td><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>JWT</code></td>
+</tr>
+</tbody>
 </table>
 
 <details>
@@ -136,11 +145,11 @@ Enterprise-grade REST API powering multi-level approval workflows with role-base
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [🔍 Multimodal Anomaly Detection](https://github.com/prakash-nitc/multimodal-anomaly-detection) | M.Tech research — zero-shot anomaly detection using Vision-Language Models on MVTec AD | Python, CLIP, PyTorch |
-| [⚔️ CodeArena](https://github.com/prakash-nitc/CodeArena) | Real-time collaborative coding interview platform with WebSocket communication and JWT auth | Java, Spring Boot, WebSocket |
-| [📚 Study Focus](https://github.com/prakash-nitc/Study_Focus) | Chrome extension for productivity — blocks distractions and tracks focused study sessions | JavaScript, Chrome APIs |
-| [🌐 Portfolio Website](https://github.com/prakash-nitc/Portfolio_website) | Cosmic-themed personal portfolio with constellation animations and glassmorphism effects | HTML, CSS, JS |
-| [💻 LeetCode Solutions](https://github.com/prakash-nitc/Leetcode_Solutions) | Curated algorithmic problem solutions with clean, well-documented code | Java |
+| [🔍 Multimodal Anomaly Detection](https://github.com/prakash-nitc/multimodal-anomaly-detection) | M.Tech research — zero-shot anomaly detection using VLMs on MVTec AD benchmark | Python, CLIP, PyTorch |
+| [⚔️ CodeArena](https://github.com/prakash-nitc/CodeArena) | Real-time collaborative coding interview platform with WebSocket and JWT auth | Java, Spring Boot, WebSocket |
+| [📚 Study Focus](https://github.com/prakash-nitc/Study_Focus) | Chrome extension — blocks distractions and tracks focused study sessions | JavaScript, Chrome APIs |
+| [🌐 Portfolio Website](https://github.com/prakash-nitc/Portfolio_website) | Cosmic-themed personal portfolio with constellation animations and glassmorphism | HTML, CSS, JS |
+| [💻 LeetCode Solutions](https://github.com/prakash-nitc/Leetcode_Solutions) | Curated algorithmic problem solutions with clean, documented code | Java |
 
 </details>
 
@@ -184,14 +193,22 @@ Enterprise-grade REST API powering multi-level approval workflows with role-base
 
 ### <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="25">&nbsp; Let's Connect
 
-*I'm always open to discussing **software architecture**, **distributed systems**, **AI/ML research**, or exciting **collaboration opportunities**.*
+*I'm always open to discussing **backend architecture**, **distributed systems**, **AI/ML research**, or exciting **collaboration opportunities**.*
 
-**If my work resonates with you, I'd love to connect!**
+**If my work resonates with you, let's talk!**
+
+<br>
 
 <a href="https://www.linkedin.com/in/prakash1209/">
-  <img src="https://img.shields.io/badge/-Let's_connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>&nbsp;
+<a href="https://prakash-nitc.github.io/Portfolio_website/">
+  <img src="https://img.shields.io/badge/-View_Portfolio-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white" />
+</a>&nbsp;
+<a href="mailto:prakashsarangi007@gmail.com">
+  <img src="https://img.shields.io/badge/-Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:4facfe&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,50:161b22,100:0d1117&height=120&section=footer"/>
