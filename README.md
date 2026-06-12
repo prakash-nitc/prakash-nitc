@@ -67,6 +67,8 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 &nbsp;&nbsp;Exploring **zero-shot** and **few-shot** anomaly detection capabilities of CLIP-based VLMs
 &nbsp;&nbsp;on the MVTec AD benchmark — combining visual and language grounding for defect localization.
 
+&nbsp;&nbsp;📈 Latest result: [**88.5% AUROC** zero-shot on MVTec AD](https://github.com/prakash-nitc/clip-zero-shot-anomaly) — no training on defect data.
+
 &nbsp;&nbsp;`Python` &nbsp; `PyTorch` &nbsp; `CLIP` &nbsp; `Transformers` &nbsp; `Computer Vision`
 
 </td></tr>
@@ -107,6 +109,16 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 </thead>
 <tbody>
 <tr>
+<td><b>🤝&nbsp;<a href="https://github.com/prakash-nitc/NegotiAgent">NegotiAgent</a></b></td>
+<td>Neuro-symbolic meeting scheduler — LLM agents negotiate time slots through the Asynchronous Backtracking (ABT) protocol, fusing symbolic constraint solving with language-model reasoning</td>
+<td><code>Python</code> <code>LLM Agents</code> <code>Neuro-Symbolic</code> <code>ABT</code></td>
+</tr>
+<tr>
+<td><b>🔍&nbsp;<a href="https://github.com/prakash-nitc/clip-zero-shot-anomaly">CLIP Zero-Shot Anomaly</a></b></td>
+<td>Zero-shot industrial anomaly detection &amp; localization with CLIP — <b>88.5% AUROC</b> on MVTec AD with no training on defect data. Core of my M.Tech research</td>
+<td><code>Python</code> <code>PyTorch</code> <code>CLIP</code> <code>Computer Vision</code></td>
+</tr>
+<tr>
 <td><b>🤖&nbsp;<a href="https://github.com/prakash-nitc/InterviewPilot">InterviewPilot</a></b></td>
 <td>AI-powered mock interview platform — WebSocket-driven real-time sessions, Groq API for adaptive evaluation, modular Spring Boot backend</td>
 <td><code>Java</code> <code>Spring Boot</code> <code>HTMX</code> <code>Groq API</code> <code>WebSocket</code></td>
@@ -122,9 +134,9 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 <td><code>Python</code> <code>LangChain</code> <code>FAISS</code> <code>Three.js</code> <code>Flask</code></td>
 </tr>
 <tr>
-<td><b>🔤&nbsp;<a href="https://github.com/prakash-nitc/neural-net-letter-classifier">Neural Net Classifier</a></b></td>
-<td>Complete feedforward neural network from first principles — backpropagation, Xavier initialization, hyperparameter search. Zero ML frameworks used</td>
-<td><code>Python</code> <code>NumPy</code> <code>Flask</code> <code>Matplotlib</code></td>
+<td><b>🗺️&nbsp;<a href="https://github.com/prakash-nitc/RoadmapHQ">RoadmapHQ</a></b></td>
+<td>Mission control for roadmap-based learning — track progress, goals, revisions, and consistency across structured learning paths</td>
+<td><code>TypeScript</code> <code>React</code></td>
 </tr>
 <tr>
 <td><b>🚗&nbsp;<a href="https://github.com/prakash-nitc/rideconnect-app">RideConnect</a></b></td>
@@ -132,9 +144,9 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 <td><code>React</code> <code>TypeScript</code> <code>Node.js</code> <code>MongoDB</code> <code>Tailwind</code></td>
 </tr>
 <tr>
-<td><b>💼&nbsp;<a href="https://github.com/prakash-nitc/wams-backend">WAMS Backend</a></b></td>
-<td>Enterprise workflow & approval REST API — multi-level RBAC, audit trails, and hierarchical authorization for organizational process management</td>
-<td><code>Java</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>JWT</code></td>
+<td><b>🔤&nbsp;<a href="https://github.com/prakash-nitc/neural-net-letter-classifier">Neural Net Classifier</a></b></td>
+<td>Complete feedforward neural network from first principles — backpropagation, Xavier initialization, hyperparameter search. Zero ML frameworks used</td>
+<td><code>Python</code> <code>NumPy</code> <code>Flask</code> <code>Matplotlib</code></td>
 </tr>
 </tbody>
 </table>
@@ -145,9 +157,14 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [🔍 Multimodal Anomaly Detection](https://github.com/prakash-nitc/multimodal-anomaly-detection) | M.Tech research — zero-shot anomaly detection using VLMs on MVTec AD benchmark | Python, CLIP, PyTorch |
+| [💼 WAMS Backend](https://github.com/prakash-nitc/wams-backend) | Enterprise workflow & approval REST API — multi-level RBAC, audit trails, hierarchical authorization | Java, Spring Boot, PostgreSQL |
 | [⚔️ CodeArena](https://github.com/prakash-nitc/CodeArena) | Real-time collaborative coding interview platform with WebSocket and JWT auth | Java, Spring Boot, WebSocket |
-| [📚 Study Focus](https://github.com/prakash-nitc/Study_Focus) | Chrome extension — blocks distractions and tracks focused study sessions | JavaScript, Chrome APIs |
+| [🔬 Multimodal Anomaly Detection](https://github.com/prakash-nitc/multimodal-anomaly-detection) | M.Tech research — multimodal anomaly detection with Vision-Language Models | Python, CLIP, PyTorch |
+| [☕ JavaReflex](https://github.com/prakash-nitc/JavaReflex) | Drill app to build Java coding muscle memory for interviews and online assessments | JavaScript |
+| [📺 FocusTube](https://github.com/prakash-nitc/FocusTube) | Chrome extension that transforms YouTube into a distraction-free learning environment | JavaScript, Chrome APIs |
+| [🎮 HabitQuest](https://github.com/prakash-nitc/HabitQuest) | Gamified Chrome extension that turns student habits into epic quests | JavaScript, Chrome APIs |
+| [📚 Study Focus](https://github.com/prakash-nitc/Study_Focus) | Minimalist Chrome extension — blocks distractions and tracks focused study sessions | JavaScript, Chrome APIs |
+| [🤖 Naukri Profile Updater](https://github.com/prakash-nitc/naukri-profile-updater) | Automated job-profile freshness bot with multi-channel notifications and Docker support | Python, Docker |
 | [🌐 Portfolio Website](https://github.com/prakash-nitc/Portfolio_website) | Cosmic-themed personal portfolio with constellation animations and glassmorphism | HTML, CSS, JS |
 | [💻 LeetCode Solutions](https://github.com/prakash-nitc/Leetcode_Solutions) | Curated algorithmic problem solutions with clean, documented code | Java |
 
