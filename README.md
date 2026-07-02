@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://github.com/prakash-nitc">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=4FACFE&center=true&vCenter=true&random=false&width=720&height=40&lines=Backend+Engineer+%7C+Java+%26+Spring+Boot;Systems+Programmer+%7C+C%2B%2B+%26+POSIX+APIs;Full-Stack+Builder+%7C+React+%26+Node.js;AI%2FML+Researcher+%7C+Vision-Language+Models;2%2B+Years+@+TCS+%7C+Now+@+NIT+Calicut" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=800&color=4FACFE&center=true&vCenter=true&random=false&width=720&height=40&lines=Backend+Engineer+%7C+Java+%26+Spring+Boot;Systems+Programmer+%7C+C%2B%2B+%26+POSIX+APIs;Full-Stack+Builder+%7C+React+%26+Next.js;AI+Researcher+%7C+VLMs+%26+LLM+Agents;2%2B+Years+@+TCS+%7C+Now+@+NIT+Calicut" alt="Typing SVG" />
 </a>
 
 <br>
@@ -47,7 +47,7 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 - 💼 **Ex-TCS** — 2 years of enterprise Java/Spring Boot backend development
 - ⚙️ Systems programmer — raw TCP sockets, `fork/exec`, `dup2`, multithreading in C++
 - 🔬 Researcher — Multimodal Anomaly Detection with Vision-Language Models
-- 🤖 AI practitioner — built a neural network from scratch in NumPy, multi-agent cognitive simulations
+- 🤖 AI practitioner — LLM agent systems, from-scratch neural networks in NumPy, multi-agent simulations
 - 📍 Calicut, Kerala &nbsp;·&nbsp; Open to remote & on-site opportunities
 
 <br clear="right"/>
@@ -56,24 +56,36 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 
 ## 🔬 Currently Working On
 
-<div align="center">
-<table>
-<tr><td>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-&nbsp;&nbsp;**M.Tech Research &nbsp;·&nbsp; NIT Calicut**
+### 🎓 M.Tech Research · NIT Calicut
 
-&nbsp;&nbsp;*Multimodal Anomaly Detection using Vision-Language Models*
+**Multimodal Anomaly Detection with Vision-Language Models**
 
-&nbsp;&nbsp;Exploring **zero-shot** and **few-shot** anomaly detection capabilities of CLIP-based VLMs
-&nbsp;&nbsp;on the MVTec AD benchmark — combining visual and language grounding for defect localization.
+Zero-shot & few-shot defect detection with CLIP-based VLMs on the MVTec AD benchmark — combining visual and language grounding for pixel-level defect localization.
 
-&nbsp;&nbsp;📈 Latest result: [**88.5% AUROC** zero-shot on MVTec AD](https://github.com/prakash-nitc/clip-zero-shot-anomaly) — no training on defect data.
+📈 [**88.5% AUROC** zero-shot on MVTec AD](https://github.com/prakash-nitc/clip-zero-shot-anomaly) — no training on defect data
 
-&nbsp;&nbsp;`Python` &nbsp; `PyTorch` &nbsp; `CLIP` &nbsp; `Transformers` &nbsp; `Computer Vision`
+`Python` `PyTorch` `CLIP` `Transformers`
 
-</td></tr>
+</td>
+<td width="50%" valign="top">
+
+### 🤝 Latest Build · NegotiAgent
+
+**Neuro-Symbolic Distributed Meeting Scheduler**
+
+An LLM layer converts natural-language emails into validated formal constraints; autonomous agents then negotiate conflict-free schedules via the Asynchronous Backtracking (ABT) protocol.
+
+📉 [**7× message reduction** · **0 disagreements** across 1,440 benchmark runs](https://github.com/prakash-nitc/NegotiAgent)
+
+`Python` `FastAPI` `Groq` `RAG` `CSP / ABT`
+
+</td>
+</tr>
 </table>
-</div>
 
 ---
 
@@ -110,8 +122,8 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 <tbody>
 <tr>
 <td><b>🤝&nbsp;<a href="https://github.com/prakash-nitc/NegotiAgent">NegotiAgent</a></b></td>
-<td>Neuro-symbolic meeting scheduler — LLM agents negotiate time slots through the Asynchronous Backtracking (ABT) protocol, fusing symbolic constraint solving with language-model reasoning</td>
-<td><code>Python</code> <code>LLM Agents</code> <code>Neuro-Symbolic</code> <code>ABT</code></td>
+<td>Neuro-symbolic meeting scheduler — LLM extracts formal constraints from natural-language emails; autonomous agents negotiate via Asynchronous Backtracking. <b>7× message reduction</b>, 0 disagreements in 1,440 benchmark runs</td>
+<td><code>Python</code> <code>FastAPI</code> <code>Groq</code> <code>RAG</code> <code>CSP/ABT</code></td>
 </tr>
 <tr>
 <td><b>🔍&nbsp;<a href="https://github.com/prakash-nitc/clip-zero-shot-anomaly">CLIP Zero-Shot Anomaly</a></b></td>
@@ -130,13 +142,13 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 </tr>
 <tr>
 <td><b>🧠&nbsp;<a href="https://github.com/prakash-nitc/Multi-Agent-Generative-AI-Simulation">Multi-Agent AI Simulation</a></b></td>
-<td>8 autonomous AI agents with FAISS-backed memory streams, reflective reasoning, and strategic planning — inspired by Stanford's Generative Agents paper</td>
-<td><code>Python</code> <code>LangChain</code> <code>FAISS</code> <code>Three.js</code> <code>Flask</code></td>
+<td>8 autonomous AI agents running a simulated ISRO lunar base ("Aryabhata Station") — Stanford Generative Agents architecture with FAISS memory streams, emergent social behavior, and real-time 3D visualization</td>
+<td><code>Python</code> <code>FastAPI</code> <code>FAISS</code> <code>Three.js</code> <code>Groq API</code></td>
 </tr>
 <tr>
 <td><b>🗺️&nbsp;<a href="https://github.com/prakash-nitc/RoadmapHQ">RoadmapHQ</a></b></td>
-<td>Mission control for roadmap-based learning — track progress, goals, revisions, and consistency across structured learning paths</td>
-<td><code>TypeScript</code> <code>React</code></td>
+<td>Mission control for roadmap-based learning — track progress, goals, revisions, and consistency across structured learning paths with charts and streak tracking</td>
+<td><code>TypeScript</code> <code>Next.js 15</code> <code>Prisma</code> <code>SQLite</code> <code>Tailwind</code></td>
 </tr>
 <tr>
 <td><b>🚗&nbsp;<a href="https://github.com/prakash-nitc/rideconnect-app">RideConnect</a></b></td>
@@ -183,7 +195,7 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=prakash-nitc&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=4facfe&ring=4facfe&fire=a855f7&currStreakLabel=4facfe&sideLabels=4facfe&dates=9ca3af" />
+  <img src="https://streak-stats.demolab.com?user=prakash-nitc&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=4facfe&ring=4facfe&fire=a855f7&currStreakLabel=4facfe&sideLabels=4facfe&dates=9ca3af" />
 </div>
 
 <br>
