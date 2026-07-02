@@ -31,6 +31,13 @@
 </a>&nbsp;
 <img src="https://komarev.com/ghpvc/?username=prakash-nitc&style=for-the-badge&color=4facfe&label=PROFILE+VIEWS" />
 
+<br><br>
+
+<img src="https://img.shields.io/badge/Experience-2%2B_Years_@_TCS-1f6feb?style=for-the-badge&labelColor=0d1117" />&nbsp;
+<img src="https://img.shields.io/badge/Research-88.5%25_AUROC_Zero--Shot-a855f7?style=for-the-badge&labelColor=0d1117" />&nbsp;
+<img src="https://img.shields.io/badge/LeetCode-300%2B_Solved-FFA116?style=for-the-badge&labelColor=0d1117" />&nbsp;
+<img src="https://img.shields.io/badge/Projects-15%2B_Shipped-2ea44f?style=for-the-badge&labelColor=0d1117" />
+
 </div>
 
 ---
@@ -51,6 +58,20 @@ I build high-performance backend systems for a living, dig into POSIX system cal
 - 📍 Calicut, Kerala &nbsp;·&nbsp; Open to remote & on-site opportunities
 
 <br clear="right"/>
+
+---
+
+## 🛤️ The Journey So Far
+
+```mermaid
+timeline
+    title From Kolkata to Calicut — via Production Systems
+    2019 : Started B.Tech (IT) at Techno Main Salt Lake, Kolkata
+    2023 : Graduated B.Tech : Joined TCS Bengaluru as Software Engineer
+    2025 : Completed 2 years at TCS : Started M.Tech (CS) at NIT Calicut
+    2026 : 88.5% AUROC zero-shot anomaly detection research : Built NegotiAgent — LLM agents + ABT protocol
+    2027 : M.Tech graduation (expected) : Open to SWE and research roles
+```
 
 ---
 
@@ -106,6 +127,22 @@ An LLM layer converts natural-language emails into validated formal constraints;
 <img src="https://skillicons.dev/icons?i=mysql,mongodb,postgres,docker,git,linux&theme=dark" />
 
 </div>
+
+<details>
+<summary><b>🧰 &nbsp;Expand the full arsenal</b></summary>
+<br>
+
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | `Java` `Python` `C` `C++` `TypeScript` `JavaScript (ES6+)` `SQL` |
+| **Backend** | `Spring Boot` `Spring MVC` `Node.js` `Express` `FastAPI` `Flask` `HTMX` `WebSocket` `REST APIs` |
+| **Frontend** | `React` `Next.js` `Tailwind CSS` `Three.js` `HTML5` `CSS3` |
+| **AI / ML** | `PyTorch` `NumPy` `CLIP` `Vision-Language Models` `LLM Agents` `RAG` `FAISS` `LangChain` |
+| **Databases** | `MySQL` `MongoDB` `PostgreSQL` `SQLite` `Prisma` `H2` |
+| **Systems** | `Linux` `POSIX APIs` `TCP Sockets` `IPC` `Multithreading` `Process Management` |
+| **Tools** | `Git` `GitLab` `Docker` `Postman` `Swagger / OpenAPI` `GitHub Actions` |
+
+</details>
 
 ---
 
@@ -187,6 +224,12 @@ An LLM layer converts natural-language emails into validated formal constraints;
 ## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ez4/giphy.gif" width="25">&nbsp; GitHub Analytics
 
 <div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=prakash-nitc&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies" />
+</div>
+
+<br>
+
+<div align="center">
   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=prakash-nitc&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4facfe&icon_color=a855f7&text_color=e8e8f0&ring_color=4facfe" />
   &nbsp;&nbsp;
   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=prakash-nitc&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4facfe&text_color=e8e8f0&langs_count=8" />
@@ -209,11 +252,7 @@ An LLM layer converts natural-language emails into validated formal constraints;
 ## 🐍 &nbsp;Watch the Snake Eat My Contributions
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prakash-nitc/prakash-nitc/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prakash-nitc/prakash-nitc/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/prakash-nitc/prakash-nitc/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
+  <img alt="Snake animation eating my GitHub contributions" src="https://raw.githubusercontent.com/prakash-nitc/prakash-nitc/output/github-contribution-grid-snake-dark.svg" />
 </div>
 
 ---
