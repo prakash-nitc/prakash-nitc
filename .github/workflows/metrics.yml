@@ -34,7 +34,11 @@ jobs:
       HAS_PAT: ${{ secrets.METRICS_TOKEN != '' }}
 
     steps:
-      - name: Overview — stats, activity, contribution calendar
+      # Also gated: without the PAT this card is just "914 commits" plus three
+      # zeros (0 PRs reviewed / 0 issues / 0 issue comments) and a blank column —
+      # weaker than showing nothing, and the streak card already covers the totals.
+      - name: Overview — stats and activity
+        if: env.HAS_PAT == 'true'
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}

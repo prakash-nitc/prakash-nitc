@@ -239,26 +239,20 @@ Retrieval-augmented QA with inline citations, built eval-first: a curated 52-que
 
 <div align="center">
 
-<!-- Rendered by .github/workflows/metrics.yml and committed to this repo, so
-     there is no third-party service in the page-load path. The public
-     github-readme-stats / profile-trophy / activity-graph instances this
-     section used to embed are all down (402 DEPLOYMENT_DISABLED, 503
-     DEPLOYMENT_PAUSED). -->
+<!-- Deliberately lean. The four widgets that used to live here (github-readme-stats,
+     its sigma-five fork, github-profile-trophy, github-readme-activity-graph) are all
+     dead upstream — 402 DEPLOYMENT_DISABLED / 503 DEPLOYMENT_PAUSED.
 
-<img src="metrics/overview.svg?v=1" alt="GitHub metrics — activity, commit streaks and contributions calendar" width="88%" />
+     .github/workflows/metrics.yml can render replacements locally and commit them, but
+     every card worth showing (top languages, achievements, repo/star totals) needs to
+     enumerate all repos, which the repo-scoped GITHUB_TOKEN cannot do. Add a
+     METRICS_TOKEN secret (classic PAT: public_repo + read:user) and the workflow starts
+     emitting metrics/languages.svg and metrics/achievements.svg — then embed them here.
 
-<!-- Add a METRICS_TOKEN secret (classic PAT, scopes: public_repo + read:user)
-     and the workflow will also emit metrics/languages.svg and
-     metrics/achievements.svg; uncomment the block below once it has run.
+     No contributions grid in this section on purpose: GitHub's native one sits directly
+     above this README, and the snake below is a second view of the same data. -->
 
-<img src="metrics/languages.svg?v=1" alt="Most used languages" height="200em" />
-&nbsp;&nbsp;
-<img src="metrics/achievements.svg?v=1" alt="GitHub achievements" height="200em" />
--->
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=prakash-nitc&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=4facfe&ring=4facfe&fire=a855f7&currStreakLabel=4facfe&sideLabels=4facfe&dates=9ca3af" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=prakash-nitc&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=4facfe&ring=4facfe&fire=a855f7&currStreakLabel=4facfe&sideLabels=4facfe&dates=9ca3af" alt="GitHub contribution streak — total contributions, current streak and longest streak" />
 
 </div>
 
