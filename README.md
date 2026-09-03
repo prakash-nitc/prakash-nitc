@@ -36,7 +36,7 @@
 <img src="https://img.shields.io/badge/Experience-2%2B_Years_@_TCS-1f6feb?style=for-the-badge&labelColor=0d1117" />&nbsp;
 <img src="https://img.shields.io/badge/Research-88.5%25_AUROC_Zero--Shot-a855f7?style=for-the-badge&labelColor=0d1117" />&nbsp;
 <img src="https://img.shields.io/badge/LeetCode-300%2B_Solved-FFA116?style=for-the-badge&labelColor=0d1117" />&nbsp;
-<img src="https://img.shields.io/badge/Projects-15%2B_Shipped-2ea44f?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Projects-20%2B_Shipped-2ea44f?style=for-the-badge&labelColor=0d1117" />
 
 </div>
 
@@ -69,7 +69,7 @@ timeline
     2019 : Started B.Tech (IT) at Techno Main Salt Lake, Kolkata
     2023 : Graduated B.Tech : Joined TCS Bengaluru as Software Engineer
     2025 : Completed 2 years at TCS : Started M.Tech (CS) at NIT Calicut
-    2026 : 88.5% AUROC zero-shot anomaly detection research : Built NegotiAgent — LLM agents + ABT protocol
+    2026 : 88.5% AUROC zero-shot anomaly detection research : Built NegotiAgent — LLM agents + ABT protocol : LitRAG — evaluation-first RAG, 0.957 recall@1
     2027 : M.Tech graduation (expected) : Open to SWE and research roles
 ```
 
@@ -87,22 +87,22 @@ timeline
 
 Zero-shot & few-shot defect detection with CLIP-based VLMs on the MVTec AD benchmark — combining visual and language grounding for pixel-level defect localization.
 
-📈 [**88.5% AUROC** zero-shot on MVTec AD](https://github.com/prakash-nitc/clip-zero-shot-anomaly) — no training on defect data
+📈 [**88.5% AUROC** zero-shot on MVTec AD](https://github.com/prakash-nitc/clip-anomaly-detection) — no training on defect data
 
 `Python` `PyTorch` `CLIP` `Transformers`
 
 </td>
 <td width="50%" valign="top">
 
-### 🤝 Latest Build · NegotiAgent
+### 📚 Latest Build · LitRAG
 
-**Neuro-Symbolic Distributed Meeting Scheduler**
+**Evaluation-First RAG over Research Papers**
 
-An LLM layer converts natural-language emails into validated formal constraints; autonomous agents then negotiate conflict-free schedules via the Asynchronous Backtracking (ABT) protocol.
+Retrieval-augmented QA with inline citations, built eval-first: a curated 52-question set, recall@k and faithfulness scoring, and a 30-config ablation of chunking, embeddings and reranking. Plain Python — no framework magic.
 
-📉 [**7× message reduction** · **0 disagreements** across 1,440 benchmark runs](https://github.com/prakash-nitc/NegotiAgent)
+📊 [**0.957 recall@1** · **1.000 recall@3** · 30-config ablation, negative results included](https://github.com/prakash-nitc/LitRAG) &nbsp;·&nbsp; [live demo](https://huggingface.co/spaces/prakash-nitc/LitRAG)
 
-`Python` `FastAPI` `Groq` `RAG` `CSP / ABT`
+`Python` `Sentence-Transformers` `BM25` `Reranking` `Groq`
 
 </td>
 </tr>
@@ -137,9 +137,9 @@ An LLM layer converts natural-language emails into validated formal constraints;
 | **Languages** | `Java` `Python` `C` `C++` `TypeScript` `JavaScript (ES6+)` `SQL` |
 | **Backend** | `Spring Boot` `Spring MVC` `Node.js` `Express` `FastAPI` `Flask` `HTMX` `WebSocket` `REST APIs` |
 | **Frontend** | `React` `Next.js` `Tailwind CSS` `Three.js` `HTML5` `CSS3` |
-| **AI / ML** | `PyTorch` `NumPy` `CLIP` `Vision-Language Models` `LLM Agents` `RAG` `FAISS` `LangChain` |
+| **AI / ML** | `PyTorch` `NumPy` `CLIP` `Vision-Language Models` `LLM Agents` `RAG` `FAISS` `LangChain` `Sentence-Transformers` `BM25` `Cross-Encoder Reranking` `Gradio` |
 | **Databases** | `MySQL` `MongoDB` `PostgreSQL` `SQLite` `Prisma` `H2` |
-| **Systems** | `Linux` `POSIX APIs` `TCP Sockets` `IPC` `Multithreading` `Process Management` |
+| **Systems** | `Linux` `POSIX APIs` `TCP Sockets` `IPC` `Multithreading` `Process Management` `Computer Architecture` `Cache Simulation` |
 | **Tools** | `Git` `GitLab` `Docker` `Postman` `Swagger / OpenAPI` `GitHub Actions` |
 
 </details>
@@ -163,9 +163,14 @@ An LLM layer converts natural-language emails into validated formal constraints;
 <td><code>Python</code> <code>FastAPI</code> <code>Groq</code> <code>RAG</code> <code>CSP/ABT</code></td>
 </tr>
 <tr>
-<td><b>🔍&nbsp;<a href="https://github.com/prakash-nitc/clip-zero-shot-anomaly">CLIP Zero-Shot Anomaly</a></b></td>
+<td><b>🔍&nbsp;<a href="https://github.com/prakash-nitc/clip-anomaly-detection">CLIP Zero-Shot Anomaly</a></b></td>
 <td>Zero-shot industrial anomaly detection &amp; localization with CLIP — <b>88.5% AUROC</b> on MVTec AD with no training on defect data. Core of my M.Tech research</td>
 <td><code>Python</code> <code>PyTorch</code> <code>CLIP</code> <code>Computer Vision</code></td>
+</tr>
+<tr>
+<td><b>📚&nbsp;<a href="https://github.com/prakash-nitc/LitRAG">LitRAG</a></b></td>
+<td>Evaluation-first RAG over CV research papers — recall@k &amp; faithfulness harness before the demo, 30-config ablation of chunking/embeddings/reranking. <b>0.957 recall@1</b>, <b>1.000 recall@3</b>. <a href="https://huggingface.co/spaces/prakash-nitc/LitRAG">Live on HF Spaces</a></td>
+<td><code>Python</code> <code>Sentence-Transformers</code> <code>BM25</code> <code>Cross-Encoder</code> <code>Gradio</code></td>
 </tr>
 <tr>
 <td><b>🤖&nbsp;<a href="https://github.com/prakash-nitc/InterviewPilot">InterviewPilot</a></b></td>
@@ -176,6 +181,11 @@ An LLM layer converts natural-language emails into validated formal constraints;
 <td><b>⚡&nbsp;<a href="https://github.com/prakash-nitc/Distributed-Task-Scheduler">Distributed Task Scheduler</a></b></td>
 <td>Master-Worker distributed system in C++ — raw TCP sockets, <code>fork/exec</code>, <code>dup2</code>, <code>select()</code>, dynamic load balancing. Zero external dependencies</td>
 <td><code>C++</code> <code>TCP Sockets</code> <code>POSIX</code> <code>IPC</code></td>
+</tr>
+<tr>
+<td><b>🧮&nbsp;<a href="https://github.com/prakash-nitc/Cache-hierarchy-simulator">Cache Hierarchy Simulator</a></b></td>
+<td>Configurable L1/L2 CPU cache simulator in C++17 over real memory traces — LRU/FIFO/Random, write-back/through, 3-C miss classification, AMAT analysis. 32-run sweep report: <b>direct-mapped → 4-way cuts miss rate 32.4% → 25.6%, AMAT −20.5%</b></td>
+<td><code>C++17</code> <code>Computer Architecture</code> <code>Python</code></td>
 </tr>
 <tr>
 <td><b>🧠&nbsp;<a href="https://github.com/prakash-nitc/Multi-Agent-Generative-AI-Simulation">Multi-Agent AI Simulation</a></b></td>
@@ -206,6 +216,10 @@ An LLM layer converts natural-language emails into validated formal constraints;
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| [🗓️ Cadence](https://github.com/prakash-nitc/Cadence) | Local-first planning PWA — plan tomorrow tonight, track what actually got done, score the day honestly. [Live](https://cadence-eta-olive.vercel.app) | TypeScript, Vite, Tailwind |
+| [📈 Grindin](https://github.com/prakash-nitc/Grindin) | Daily check-in generator for placement prep — turns a morning form into a shareable accountability report across DSA, Spring Boot and CSE core | JavaScript |
+| [🗣️ Cheppu](https://github.com/prakash-nitc/Cheppu) | Duolingo-style app for spoken Telugu — hear a phrase, build it, say it, all in romanized spelling. No reading or writing required | HTML, CSS, JS |
+| [📄 Paper Trail Tracker](https://github.com/prakash-nitc/Paper-Trail-Tracker) | Progress tracker for the PaperTrail project | HTML, JS |
 | [💼 WAMS Backend](https://github.com/prakash-nitc/wams-backend) | Enterprise workflow & approval REST API — multi-level RBAC, audit trails, hierarchical authorization | Java, Spring Boot, PostgreSQL |
 | [⚔️ CodeArena](https://github.com/prakash-nitc/CodeArena) | Real-time collaborative coding interview platform with WebSocket and JWT auth | Java, Spring Boot, WebSocket |
 | [🔬 Multimodal Anomaly Detection](https://github.com/prakash-nitc/multimodal-anomaly-detection) | M.Tech research — multimodal anomaly detection with Vision-Language Models | Python, CLIP, PyTorch |
