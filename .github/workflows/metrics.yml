@@ -26,6 +26,13 @@ jobs:
     permissions:
       contents: write
 
+    # The languages and achievements plugins must enumerate every repo the user
+    # owns. GITHUB_TOKEN is scoped to THIS repo, so without a PAT they render
+    # "0 Languages" and "Unexpected error". Gate them rather than commit a
+    # broken card — they light up automatically once METRICS_TOKEN is added.
+    env:
+      HAS_PAT: ${{ secrets.METRICS_TOKEN != '' }}
+
     steps:
       - name: Overview — stats, activity, contribution calendar
         uses: lowlighter/metrics@latest
@@ -35,7 +42,9 @@ jobs:
           filename: metrics/overview.svg
           committer_branch: main
           committer_message: "chore(metrics): refresh overview card"
-          base: header, activity, community, repositories, metadata
+          # `repositories`/`community` need the PAT too; under GITHUB_TOKEN they
+          # report "1 Repository / 0 Stargazers", which misrepresents the account.
+          base: ${{ secrets.METRICS_TOKEN != '' && 'header, activity, community, repositories, metadata' || 'header, activity' }}
           base_indepth: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -53,6 +62,7 @@ jobs:
             small { color: #8b949e !important; }
 
       - name: Languages — most used across all repositories
+        if: env.HAS_PAT == 'true'
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
@@ -73,6 +83,7 @@ jobs:
           extras_css: *dark_css
 
       - name: Achievements — replaces the dead trophy service
+        if: env.HAS_PAT == 'true'
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}

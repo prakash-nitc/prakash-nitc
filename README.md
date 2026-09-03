@@ -238,27 +238,28 @@ Retrieval-augmented QA with inline citations, built eval-first: a curated 52-que
 ## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ez4/giphy.gif" width="25">&nbsp; GitHub Analytics
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=prakash-nitc&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=8&margin-h=8" alt="GitHub Trophies" />
-</div>
 
-<br>
+<!-- Rendered by .github/workflows/metrics.yml and committed to this repo, so
+     there is no third-party service in the page-load path. The public
+     github-readme-stats / profile-trophy / activity-graph instances this
+     section used to embed are all down (402 DEPLOYMENT_DISABLED, 503
+     DEPLOYMENT_PAUSED). -->
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=prakash-nitc&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4facfe&icon_color=a855f7&text_color=e8e8f0&ring_color=4facfe" />
-  &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=prakash-nitc&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4facfe&text_color=e8e8f0&langs_count=8" />
-</div>
+<img src="metrics/overview.svg?v=1" alt="GitHub metrics — activity, commit streaks and contributions calendar" width="88%" />
 
-<br>
+<!-- Add a METRICS_TOKEN secret (classic PAT, scopes: public_repo + read:user)
+     and the workflow will also emit metrics/languages.svg and
+     metrics/achievements.svg; uncomment the block below once it has run.
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=prakash-nitc&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=4facfe&ring=4facfe&fire=a855f7&currStreakLabel=4facfe&sideLabels=4facfe&dates=9ca3af" />
-</div>
+<img src="metrics/languages.svg?v=1" alt="Most used languages" height="200em" />
+&nbsp;&nbsp;
+<img src="metrics/achievements.svg?v=1" alt="GitHub achievements" height="200em" />
+-->
 
-<br>
+<br><br>
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=prakash-nitc&bg_color=0d1117&color=4facfe&line=a855f7&point=e8e8f0&area=true&area_color=4facfe&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=prakash-nitc&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=4facfe&ring=4facfe&fire=a855f7&currStreakLabel=4facfe&sideLabels=4facfe&dates=9ca3af" alt="GitHub streak" />
+
 </div>
 
 ---
