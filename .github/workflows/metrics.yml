@@ -46,12 +46,9 @@ jobs:
           # report "1 Repository / 0 Stargazers", which misrepresents the account.
           base: ${{ secrets.METRICS_TOKEN != '' && 'header, activity, community, repositories, metadata' || 'header, activity' }}
           base_indepth: yes
-          # Flat calendar, not isocalendar: the isometric one renders its inner
-          # <svg> with style="margin-top:-130px", which overlapped the section
-          # heading and spilled past the computed card height. Also scopeless,
-          # so it works without a PAT.
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
+          # No contributions calendar here on purpose: the profile already shows
+          # GitHub's native one, plus the snake animation below. A third grid is
+          # noise.
           config_timezone: Asia/Kolkata
           config_animations: yes
           config_padding: 0, 8%
