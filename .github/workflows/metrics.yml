@@ -1,0 +1,94 @@
+name: Generate Metrics
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # Daily, 30 min after the snake job
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
+
+# Why this exists: the profile previously embedded github-readme-stats,
+# github-profile-trophy and github-readme-activity-graph from public Vercel
+# instances. Those deployments went 402/503 (DEPLOYMENT_DISABLED / PAUSED) and
+# rendered "Something went wrong" cards on the profile. Rendering the SVGs here
+# and committing them means there is no third-party host in the page-load path.
+#
+# METRICS_TOKEN (a classic PAT with `public_repo` + `read:user`) unlocks the full
+# dataset. Without it the job still succeeds on the repo-scoped GITHUB_TOKEN,
+# just with thinner numbers.
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+
+    steps:
+      - name: Overview — stats, activity, contribution calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: metrics/overview.svg
+          committer_branch: main
+          committer_message: "chore(metrics): refresh overview card"
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Kolkata
+          config_animations: yes
+          plugins_errors_fatal: no
+          retries: 3
+          retries_delay: 30
+          extras_css: &dark_css |
+            svg { background: #0d1117; color: #c9d1d9; }
+            h1 { color: #e8e8f0 !important; }
+            h2, h3 { color: #4facfe !important; }
+            h2 svg, h3 svg { fill: #4facfe !important; }
+            .field { color: #c9d1d9; }
+            small { color: #8b949e !important; }
+
+      - name: Languages — most used across all repositories
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: metrics/languages.svg
+          committer_branch: main
+          committer_message: "chore(metrics): refresh languages card"
+          base: ""
+          plugin_languages: yes
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          config_timezone: Asia/Kolkata
+          config_animations: yes
+          plugins_errors_fatal: no
+          retries: 3
+          retries_delay: 30
+          extras_css: *dark_css
+
+      - name: Achievements — replaces the dead trophy service
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          filename: metrics/achievements.svg
+          committer_branch: main
+          committer_message: "chore(metrics): refresh achievements card"
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
+          plugin_achievements_limit: 0
+          config_timezone: Asia/Kolkata
+          config_animations: yes
+          plugins_errors_fatal: no
+          retries: 3
+          retries_delay: 30
+          extras_css: *dark_css
